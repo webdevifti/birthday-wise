@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-image: url('./momin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: crosshair;
+    position: relative;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 5em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  h2{
+    color: #fff;
+  }
+  .content{
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  img{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
